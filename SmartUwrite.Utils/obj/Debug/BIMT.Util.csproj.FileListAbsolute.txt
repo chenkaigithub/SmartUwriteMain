@@ -1,0 +1,12 @@
+D:\GitLab\wordplugin-frontend\BIMT.Util\bin\Debug\BIMT.Util.dll
+D:\GitLab\wordplugin-frontend\BIMT.Util\bin\Debug\BIMT.Util.pdb
+D:\GitLab\wordplugin-frontend\BIMT.Util\obj\Debug\BIMT.Util.dll
+D:\GitLab\wordplugin-frontend\BIMT.Util\obj\Debug\BIMT.Util.pdb
+D:\GitLab\wordplugin-frontend\BIMT.Util\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitLab\wordplugin-frontend\BIMT.Util\bin\Debug\Newtonsoft.Json.dll
+D:\GitLab\wordplugin-frontend\BIMT.Util\bin\Debug\DotRas.dll
+D:\GitLab\wordplugin-frontend\BIMT.Util\bin\Debug\DotRas.xml
+D:\GitLab\wordplugin-frontend\BIMT.Util\bin\Debug\License.lic
+D:\GitLab\wordplugin-frontend\BIMT.Util\obj\Debug\BIMT.Util.Properties.Resources.resources
+D:\GitLab\wordplugin-frontend\BIMT.Util\obj\Debug\BIMT.Util.csproj.GenerateResource.Cache
+D:\GitLab\wordplugin-frontend\BIMT.Util\obj\Debug\BIMT.Util.csprojResolveAssemblyReference.cache

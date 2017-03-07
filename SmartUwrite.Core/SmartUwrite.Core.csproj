@@ -1,0 +1,1102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99161A92-D947-4879-9756-FBDD019498B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BIMTClassLibrary</RootNamespace>
+    <AssemblyName>SmartUwrite.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\OfficeUtil.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OfficeUtil.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\OfficeUtil.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OfficeUtil.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aliyun.OpenServices, Version=1.0.5290.21916, Culture=neutral, PublicKeyToken=0ad4175f0dac0b9b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Aliyun.OpenServices.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>E:\log4net-1.2.15-bin-newkey\bin\net\4.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v4.0.Framework\Microsoft.Office.Tools.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.PdfViewer.Forms">
+      <HintPath>..\..\..\Program Files\e-iceblue\Spire.PdfViewer-FE\Bin\NET4.0\Spire.PdfViewer.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices.Protocols">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\ApplyStyleController.cs" />
+    <Compile Include="Controller\BuyController.cs" />
+    <Compile Include="Controller\DelLiteratureController.cs" />
+    <Compile Include="Controller\DocTempletController.cs" />
+    <Compile Include="Controller\EditStyleController.cs" />
+    <Compile Include="Controller\FeedBackController.cs" />
+    <Compile Include="Controller\GoogleViewController.cs" />
+    <Compile Include="Controller\GViewController.cs" />
+    <Compile Include="Controller\BaseController.cs" />
+    <Compile Include="Controller\ChargeableController.cs" />
+    <Compile Include="Controller\InstructionController.cs" />
+    <Compile Include="Controller\LiteratrueBaseController.cs" />
+    <Compile Include="Controller\LiteratureSearchController.cs" />
+    <Compile Include="Controller\MagazineRecmmandController.cs" />
+    <Compile Include="Controller\MatchController.cs" />
+    <Compile Include="Controller\PicFixController.cs" />
+    <Compile Include="Controller\SearchController.cs" />
+    <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="Controller\Service\BaseService.cs" />
+    <Compile Include="Controller\Service\BimtProxyService.cs" />
+    <Compile Include="Controller\Service\CommonExportProcess.cs" />
+    <Compile Include="Controller\Service\HardwareInfoService.cs" />
+    <Compile Include="Controller\Service\IUpdateStorage.cs" />
+    <Compile Include="Controller\Service\OSSService.cs" />
+    <Compile Include="Controller\Service\ReviewCommonts\ExportReviewCommentService.cs" />
+    <Compile Include="Controller\Service\ExtractInfoService.cs" />
+    <Compile Include="Controller\Service\IInvokeService.cs" />
+    <Compile Include="Controller\Service\OutputTwoTempletService.cs" />
+    <Compile Include="Controller\Service\ReviewCommonts\Class1.cs" />
+    <Compile Include="Controller\Service\SubmissionOnlineService.cs" />
+    <Compile Include="Controller\Service\CheckVersionService.cs" />
+    <Compile Include="Controller\Service\UpdateManageService.cs" />
+    <Compile Include="Controller\SmartUwriteLoadController.cs" />
+    <Compile Include="Controller\StatementMatchingController.cs" />
+    <Compile Include="Controller\UpdateController.cs" />
+    <Compile Include="Controller\ViewerRecmmandController.cs" />
+    <Compile Include="Controller\Service\ReviewCommonts\CommentsAccept.cs" />
+    <Compile Include="Controller\Service\ReviewCommonts\CommentsAcceptAfterFix.cs" />
+    <Compile Include="Controller\Service\ReviewCommonts\CommentsReject.cs" />
+    <Compile Include="Controller\Service\ReviewCommonts\CommentsReviewAfterFix.cs" />
+    <Compile Include="Controller\Service\ReviewCommonts\BaseComments.cs" />
+    <Compile Include="Model\IEntity.cs" />
+    <Compile Include="Model\ShadowSocksEntity.cs" />
+    <Compile Include="Model\Style.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\WordApplication.cs" />
+    <Compile Include="View\frmBibliographyManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmBibliographyManagement.designer.cs">
+      <DependentUpon>frmBibliographyManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmEditQuotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmEditQuotation.designer.cs">
+      <DependentUpon>frmEditQuotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmFeldList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmFeldList.designer.cs">
+      <DependentUpon>frmFeldList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmGoogleSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmGoogleSearch.Designer.cs">
+      <DependentUpon>frmGoogleSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmImageInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmImageInfo.Designer.cs">
+      <DependentUpon>frmImageInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmIndexFeldList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmIndexFeldList.designer.cs">
+      <DependentUpon>frmIndexFeldList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BaseProxy.cs" />
+    <Compile Include="Model\BaseResponse.cs" />
+    <Compile Include="Model\ResponseEntity.cs" />
+    <Compile Include="Model\BimtProxyService.cs" />
+    <Compile Include="Model\Demo.cs" />
+    <Compile Include="View\frmProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmProcess.Designer.cs">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmProxyNotify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmProxyNotify.Designer.cs">
+      <DependentUpon>frmProxyNotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmProxySetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmProxySetting.Designer.cs">
+      <DependentUpon>frmProxySetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmRuning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmRuning.Designer.cs">
+      <DependentUpon>frmRuning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\IProxyable.cs" />
+    <Compile Include="Model\ProxyEntity.cs" />
+    <Compile Include="Model\UrlEntity.cs" />
+    <Compile Include="View\frmNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmNote.Designer.cs">
+      <DependentUpon>frmNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmNoteEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmNoteEdit.Designer.cs">
+      <DependentUpon>frmNoteEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSettingCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSettingCenter.Designer.cs">
+      <DependentUpon>frmSettingCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmUseFreeMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmUseFreeMessage.Designer.cs">
+      <DependentUpon>frmUseFreeMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucBase.Designer.cs">
+      <DependentUpon>ucBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucGroup.Designer.cs">
+      <DependentUpon>ucGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucItem.Designer.cs">
+      <DependentUpon>ucItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\AccesDBHelper.cs" />
+    <Compile Include="Controller\Service\SyntoDocService.cs" />
+    <Compile Include="Controller\Service\ZipService.cs" />
+    <Compile Include="View\frmPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmPay.Designer.cs">
+      <DependentUpon>frmPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\IRefreshViewable.cs" />
+    <Compile Include="Controller\Service\PayService.cs" />
+    <Compile Include="Model\PayResponseEntity.cs" />
+    <Compile Include="Model\UserDetail.cs" />
+    <Compile Include="Controller\Service\UserService.cs" />
+    <Compile Include="Model\Curve.cs" />
+    <Compile Include="Model\IDrawPDF.cs" />
+    <Compile Include="Model\Rectangle.cs" />
+    <Compile Include="Model\StraightLine.cs" />
+    <Compile Include="Model\QuotationStyle.cs" />
+    <Compile Include="Model\BasePostEntity.cs" />
+    <Compile Include="Model\AddCategoryMeta.cs" />
+    <Compile Include="Model\AddCategoryRequestEntity.cs" />
+    <Compile Include="Model\AddCategoryResponseEntity.cs" />
+    <Compile Include="Model\Catagory.cs" />
+    <Compile Include="Model\BaseCatagory.cs" />
+    <Compile Include="Model\CatagoryResponseEntity.cs" />
+    <Compile Include="Model\CategoryDao.cs" />
+    <Compile Include="Model\GetCatagoryRequestEntity.cs" />
+    <Compile Include="Model\AddLiteratureResponseEntity.cs" />
+    <Compile Include="Model\LiteratureResponseMeta.cs" />
+    <Compile Include="Model\Meta.cs" />
+    <Compile Include="Model\AddDocMeta.cs" />
+    <Compile Include="Model\AddDocRequestEntity.cs" />
+    <Compile Include="Model\AddDocResponseEntity.cs" />
+    <Compile Include="Model\LiteratureDao.cs" />
+    <Compile Include="Model\IBaseDao.cs" />
+    <Compile Include="Controller\Service\AsynUploadDocService.cs" />
+    <Compile Include="Controller\Service\Obesever.cs" />
+    <Compile Include="Controller\Service\Subject.cs" />
+    <Compile Include="Controller\Service\SynDocInfoService.cs" />
+    <Compile Include="Controller\Service\LieteratureNetService.cs" />
+    <Compile Include="Model\RecommandAuthor.cs" />
+    <Compile Include="Model\BaseResponseEntity.cs" />
+    <Compile Include="Utils\CommonFunction.cs" />
+    <Compile Include="Model\Condition.cs" />
+    <Compile Include="Utils\LocalDBHelper.cs" />
+    <Compile Include="Model\DocumentSearchEntity.cs" />
+    <Compile Include="Utils\ClassHelper.cs" />
+    <Compile Include="Utils\DynamicStyle.cs" />
+    <Compile Include="Utils\EmailHelper.cs" />
+    <Compile Include="Controller\Service\EmailService.cs" />
+    <Compile Include="Model\ExpertPaper.cs" />
+    <Compile Include="Model\_IField.cs" />
+    <Compile Include="View\frmAddClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmAddClass.Designer.cs">
+      <DependentUpon>frmAddClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmExpertPaperInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmExpertPaperInfo.Designer.cs">
+      <DependentUpon>frmExpertPaperInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmChangeClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmChangeClass.Designer.cs">
+      <DependentUpon>frmChangeClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmEditLiterature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmEditLiterature.Designer.cs">
+      <DependentUpon>frmEditLiterature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmEditStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmEditStyle.Designer.cs">
+      <DependentUpon>frmEditStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmLocateQuotationItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmLocateQuotationItem.Designer.cs">
+      <DependentUpon>frmLocateQuotationItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmLiteratureStorage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmLiteratureStorage.designer.cs">
+      <DependentUpon>frmLiteratureStorage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSaveAs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSaveAs.Designer.cs">
+      <DependentUpon>frmSaveAs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSearchReference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSearchReference.designer.cs">
+      <DependentUpon>frmSearchReference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSendEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSendEmail.Designer.cs">
+      <DependentUpon>frmSendEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmTempletManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmTempletManager.designer.cs">
+      <DependentUpon>frmTempletManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmUnderline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmUnderline.Designer.cs">
+      <DependentUpon>frmUnderline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\IBaseControl.cs" />
+    <Compile Include="Model\IManageField.cs" />
+    <Compile Include="Model\IMyQuotation.cs" />
+    <Compile Include="Model\PageInfo.cs" />
+    <Compile Include="Model\Author.cs" />
+    <Compile Include="Model\BaseField.cs" />
+    <Compile Include="Model\CitationNumber.cs" />
+    <Compile Include="Model\DOINumber.cs" />
+    <Compile Include="Model\DoubleQuotationMarks.cs" />
+    <Compile Include="Model\EmptyField.cs" />
+    <Compile Include="Model\FeildParagraph.cs" />
+    <Compile Include="Model\fFontSize.cs" />
+    <Compile Include="Model\FullPoint.cs" />
+    <Compile Include="Model\IField.cs" />
+    <Compile Include="Model\IQuotation.cs" />
+    <Compile Include="Controller\Service\FileStorageService.cs" />
+    <Compile Include="Model\LogInRequest.cs" />
+    <Compile Include="Controller\Service\LogInService.cs" />
+    <Compile Include="Model\UserKey.cs" />
+    <Compile Include="Utils\LogHelper.cs" />
+    <Compile Include="Model\Magazine.cs" />
+    <Compile Include="Controller\Service\MagazineService.cs" />
+    <Compile Include="Utils\PictureHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\JsonHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\PublicVar.cs" />
+    <Compile Include="Model\PublishInfo.cs" />
+    <Compile Include="Model\IssueInfo.cs" />
+    <Compile Include="Model\MagazineField.cs" />
+    <Compile Include="Model\PageRange.cs" />
+    <Compile Include="Model\PeriodicalInfo.cs" />
+    <Compile Include="Model\PMIDNumber.cs" />
+    <Compile Include="Model\Press.cs" />
+    <Compile Include="Model\PublishDate.cs" />
+    <Compile Include="Model\PublishPlace.cs" />
+    <Compile Include="Model\PublishYear.cs" />
+    <Compile Include="Model\Quotation.cs" />
+    <Compile Include="Model\QuotationSet.cs" />
+    <Compile Include="Model\QuotationIndex.cs" />
+    <Compile Include="Model\QuotationItem.cs" />
+    <Compile Include="Model\QuotationItemSet.cs" />
+    <Compile Include="View\frmDeleteQuotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmDeleteQuotation.Designer.cs">
+      <DependentUpon>frmDeleteQuotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\QuotationTitle.cs" />
+    <Compile Include="Model\BaseQuotation.cs" />
+    <Compile Include="Model\Space.cs" />
+    <Compile Include="Model\Tabs.cs" />
+    <Compile Include="Model\Titile.cs" />
+    <Compile Include="Model\VolumeInfo.cs" />
+    <Compile Include="View\frmScreenShot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmScreenShot.Designer.cs">
+      <DependentUpon>frmScreenShot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucSearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucSearchBox.Designer.cs">
+      <DependentUpon>ucSearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucToolBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ucToolBar.Designer.cs">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Service\ScreenShotService.cs" />
+    <Compile Include="View\frmCheckInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCheckInfo.Designer.cs">
+      <DependentUpon>frmCheckInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SmartUwrite.cs" />
+    <Compile Include="View\frmPushUpgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmPushUpgrade.Designer.cs">
+      <DependentUpon>frmPushUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Service\PushService.cs" />
+    <Compile Include="Model\RequestEntity.cs" />
+    <Compile Include="Model\RecommendData.cs" />
+    <Compile Include="Utils\RegistryHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\frmRenameClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmRenameClass.Designer.cs">
+      <DependentUpon>frmRenameClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ResponseState.cs" />
+    <Compile Include="Utils\RestHelper.cs" />
+    <Compile Include="Model\Reviewer.cs" />
+    <Compile Include="Controller\Service\BIMTService.cs" />
+    <Compile Include="Utils\HttpTool.cs" />
+    <Compile Include="Model\HttpWebResponseUtility.cs" />
+    <Compile Include="Utils\TestHttps.cs" />
+    <Compile Include="Model\ReviewerInfo.cs" />
+    <Compile Include="Model\ReviewerPostEntity.cs" />
+    <Compile Include="Model\SortType.cs" />
+    <Compile Include="Model\AddStyleEntity.cs" />
+    <Compile Include="Model\StyleEntity.cs" />
+    <Compile Include="Model\UpdateStyleEntity.cs" />
+    <Compile Include="Controller\Service\StyleManageService.cs" />
+    <Compile Include="Model\StyleManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\frmBaseSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmBaseSetting.Designer.cs">
+      <DependentUpon>frmBaseSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ThreadQuotation.cs" />
+    <Compile Include="Model\Titles.cs" />
+    <Compile Include="Utils\TokenHelper.cs" />
+    <Compile Include="View\ucAuthorInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucAuthorInfo.Designer.cs">
+      <DependentUpon>ucAuthorInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucFilter.designer.cs">
+      <DependentUpon>ucFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucLiteratureSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucLiteratureSearch.designer.cs">
+      <DependentUpon>ucLiteratureSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucLiteratureRecommend.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucLiteratureRecommend.designer.cs">
+      <DependentUpon>ucLiteratureRecommend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucMagazineRecomand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucMagazineRecomand.Designer.cs">
+      <DependentUpon>ucMagazineRecomand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucMagazinItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucMagazinItem.Designer.cs">
+      <DependentUpon>ucMagazinItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucPictureTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucPictureTest.Designer.cs">
+      <DependentUpon>ucPictureTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucRevieweriItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucRevieweriItem.Designer.cs">
+      <DependentUpon>ucRevieweriItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucReviewerRecommand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucReviewerRecommand.Designer.cs">
+      <DependentUpon>ucReviewerRecommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucSearchItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucSearchItem.designer.cs">
+      <DependentUpon>ucSearchItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucTemplet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucTemplet.Designer.cs">
+      <DependentUpon>ucTemplet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ucExpertPaperiItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucExpertPaperiItem.Designer.cs">
+      <DependentUpon>ucExpertPaperiItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmUpgradeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmUpgradeInfo.Designer.cs">
+      <DependentUpon>frmUpgradeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\FtpHelper.cs" />
+    <Compile Include="Model\Response.cs" />
+    <Compile Include="Model\UpgradeEntity.cs" />
+    <Compile Include="Controller\Service\UpgradeService.cs" />
+    <Compile Include="View\ucPushInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ucPushInfo.Designer.cs">
+      <DependentUpon>ucPushInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Service\UserBeheiverTrickService.cs" />
+    <Compile Include="Model\BaseTemplate.cs" />
+    <Compile Include="Model\_TempletDemo.cs" />
+    <Compile Include="View\frmAddTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmAddTemplate.Designer.cs">
+      <DependentUpon>frmAddTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmSelectTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSelectTemplate.Designer.cs">
+      <DependentUpon>frmSelectTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ILinkable.cs" />
+    <Compile Include="Model\IOpenTemplatable.cs" />
+    <Compile Include="Model\ISetStylable.cs" />
+    <Compile Include="Model\ITemplate.cs" />
+    <Compile Include="Model\OssManager.cs" />
+    <Compile Include="Model\TemplateEntity.cs" />
+    <Compile Include="Controller\Service\TemplateService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\frmBibliographyManagement.resx">
+      <DependentUpon>frmBibliographyManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmEditQuotation.resx">
+      <DependentUpon>frmEditQuotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmFeldList.resx">
+      <DependentUpon>frmFeldList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmGoogleSearch.resx">
+      <DependentUpon>frmGoogleSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmImageInfo.resx">
+      <DependentUpon>frmImageInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmIndexFeldList.resx">
+      <DependentUpon>frmIndexFeldList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmProcess.resx">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmProxyNotify.resx">
+      <DependentUpon>frmProxyNotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmProxySetting.resx">
+      <DependentUpon>frmProxySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmRuning.resx">
+      <DependentUpon>frmRuning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSettingCenter.resx">
+      <DependentUpon>frmSettingCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmUseFreeMessage.resx">
+      <DependentUpon>frmUseFreeMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucBase.resx">
+      <DependentUpon>ucBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucGroup.resx">
+      <DependentUpon>ucGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucItem.resx">
+      <DependentUpon>ucItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmAddClass.resx">
+      <DependentUpon>frmAddClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmChangeClass.resx">
+      <DependentUpon>frmChangeClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmEditLiterature.resx">
+      <DependentUpon>frmEditLiterature.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmEditStyle.resx">
+      <DependentUpon>frmEditStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPay.resx">
+      <DependentUpon>frmPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmExpertPaperInfo.resx">
+      <DependentUpon>frmExpertPaperInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLocateQuotationItem.resx">
+      <DependentUpon>frmLocateQuotationItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLiteratureStorage.resx">
+      <DependentUpon>frmLiteratureStorage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSaveAs.resx">
+      <DependentUpon>frmSaveAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSearchReference.resx">
+      <DependentUpon>frmSearchReference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSendEmail.resx">
+      <DependentUpon>frmSendEmail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmTempletManager.resx">
+      <DependentUpon>frmTempletManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmUnderline.resx">
+      <DependentUpon>frmUnderline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmDeleteQuotation.resx">
+      <DependentUpon>frmDeleteQuotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmRenameClass.resx">
+      <DependentUpon>frmRenameClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucAuthorInfo.resx">
+      <DependentUpon>ucAuthorInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucFilter.resx">
+      <DependentUpon>ucFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucLiteratureSearch.resx">
+      <DependentUpon>ucLiteratureSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmScreenShot.resx">
+      <DependentUpon>frmScreenShot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucSearchBox.resx">
+      <DependentUpon>ucSearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucToolBar.resx">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucLiteratureRecommend.resx">
+      <DependentUpon>ucLiteratureRecommend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucMagazineRecomand.resx">
+      <DependentUpon>ucMagazineRecomand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucMagazinItem.resx">
+      <DependentUpon>ucMagazinItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucPictureTest.resx">
+      <DependentUpon>ucPictureTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucRevieweriItem.resx">
+      <DependentUpon>ucRevieweriItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucReviewerRecommand.resx">
+      <DependentUpon>ucReviewerRecommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucSearchItem.resx">
+      <DependentUpon>ucSearchItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmBaseSetting.resx">
+      <DependentUpon>frmBaseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucTemplet.resx">
+      <DependentUpon>ucTemplet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucExpertPaperiItem.resx">
+      <DependentUpon>ucExpertPaperiItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmCheckInfo.resx">
+      <DependentUpon>frmCheckInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmUpgradeInfo.resx">
+      <DependentUpon>frmUpgradeInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPushUpgrade.resx">
+      <DependentUpon>frmPushUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ucPushInfo.resx">
+      <DependentUpon>ucPushInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmAddTemplate.resx">
+      <DependentUpon>frmAddTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSelectTemplate.resx">
+      <DependentUpon>frmSelectTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="UML\SmartUwrite.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\加号.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\减号.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ截图20160427092308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\both.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logpic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ截图20160516210548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\476a3bdc992ae227fc3abb0407e4d78d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\无标题.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_收藏日期-拷贝-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_bg_yinyong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_soucangriqi_huise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_bg_yinyong1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_shoucangriqi_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_soucanriqi_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\矢量智能对象-拷贝-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\矢量智能对象.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfont-jiacu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfont-xiabiao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfont-xiabiao1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfont-shangbiao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfont-xiabiao2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_border1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_收藏日期-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_收藏日期-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuban.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1476166348.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aliyun.OpenServices.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\timgbtn1.jpg" />
+    <None Include="Resources\timgbtn.jpg" />
+    <None Include="Resources\timg.jpg" />
+    <None Include="Resources\charge_function.png" />
+    <None Include="Resources\runing3.gif" />
+    <None Include="Resources\runing1.gif" />
+    <None Include="Resources\runig4.gif" />
+    <None Include="Resources\runing2.gif" />
+    <None Include="Resources\runing.gif" />
+    <None Include="Resources\iconfont-wancheng1.png" />
+    <None Include="Resources\iconfont-wancheng.png" />
+    <None Include="Resources\矢量智能对象-拷贝-6.png" />
+    <None Include="Resources\圆角矩形-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartUwrite.Utils\SmartUwrite.Utils.csproj">
+      <Project>{C11C3141-557E-4F1B-A4FD-3C6FF4779BA8}</Project>
+      <Name>SmartUwrite.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

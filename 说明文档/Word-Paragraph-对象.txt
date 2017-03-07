@@ -1,0 +1,73 @@
+Paragraph 对象'代表所选内容、范围或文档中的一个段落。Paragraph 对象是 Paragraphs 集合的一个成员。Paragraphs 集合包含所选内容、范围或文档中的所有段落。
+方法
+ CloseUp'清除指定段落前的任何间距。 
+ Indent'为一个或多个段落增加一个级别的缩进。 
+ IndentCharWidth'将段落缩进指定的字符数。 
+ IndentFirstLineCharWidth'将一个或多个段落的首行缩进指定的字符数。 
+ JoinList'将列表段落与距指定段落前后最近的列表进行连接。 
+ ListAdvanceTo'为列表中的段落设置列表级别。 
+ Next'返回一个 Paragraph 对象，该对象代表下一段。 
+ OpenOrCloseUp'切换段前间距。 
+ OpenUp'为指定段落设置 12 磅的段前间距。 
+ Outdent'为一个或多个段落删除一个级别的缩进。 
+ OutlineDemote'对指定段落应用下一个标题级别样式（从“标题 1”到“标题 8”）。 
+ OutlineDemoteToBody'通过应用“正文”样式将指定段落降级为正文文本。 
+ OutlinePromote'对指定段落应用上一个标题级别样式（从“标题 1”到“标题 8”）。 
+ Previous'将上一段作为一个 Paragraph 对象返回。 
+ Reset'删除手动段落格式（不使用样式应用的格式）。 
+ ResetAdvanceTo'将使用自定义列表级别的段落重置为原始级别设置。 
+ SelectNumber'选择列表中的编号或项目符号。 
+ SeparateList'将列表分隔为两个单独的列表。对于编号的列表，新列表将从起始编号（通常为 1）开始重新编号。 
+ Space1'为指定段落设置单倍行距。 
+ Space15'为指定段落设置 1.5 倍行距。 
+ Space2'为指定段落设置 2 倍行距。 
+ TabHangingIndent'将悬挂缩进量设置为指定的制表位数。
+ TabIndent'将指定段落的左缩进量设置为指定的制表位数。
+属性
+ AddSpaceBetweenFarEastAndAlpha'如果 Microsoft Word 将自动在指定段落的日文和拉丁文文字之间添加空格，则该属性值为 True。如果仅对于某些指定段落将该属性设置为 True，则该属性会返回 wdUndefined。Long 类型，可读写。 
+ AddSpaceBetweenFarEastAndDigit'如果 Microsoft Word 将自动在指定段落的日文文字和数字之间添加空格，则该属性值为 True。如果仅对于某些指定段落将该属性设置为 True，则该属性会返回 wdUndefined。Long 类型，可读写。 
+ Alignment'返回或设置一个 WdParagraphAlignment 常量，该常量代表指定段落的对齐方式，可读写。 
+ Application'返回一个代表 Microsoft Word 应用程序的 Application 对象。 
+ AutoAdjustRightIndent'如果 Microsoft Word 会根据您指定的每行字符数自动调整指定段落的右缩进，则该属性值为 True。如果只将某些指定段落的 AutoAdjustRightIndent 属性设置为 True，则该属性会返回 wdUndefined。Long 类型，可读写。 
+ BaseLineAlignment'返回或设置一个 WdBaselineAlignment 常量，该常量代表行中字体的垂直位置，可读写。 
+ Borders'返回一个 Borders 集合，该集合代表指定段落的所有边框。 
+ CharacterUnitFirstLineIndent'返回或设置首行或悬挂缩进的值（以字符为单位）。用正值设置首行缩进，用负值设置悬挂缩进。Single 类型，可读写。 
+ CharacterUnitLeftIndent'该属性返回或设置指定段落的左缩进量（以字符为单位）。Single 类型，可读写。 
+ CharacterUnitRightIndent'该属性返回或设置指定段落的右缩进量（以字符为单位）。Single 类型，可读写。 
+ Creator'返回一个 32 位整数，该整数代表在其中创建特定对象的应用程序。只读 Long 类型。 
+ DisableLineHeightGrid'如果该属性的值为 True，则当指定每页的行数时，Microsoft Word 会将指定段落中的字符与行网格对齐。如果只将某些指定段落的 DisableLineHeightGrid 属性设置为 True，则返回 wdUndefined。Long 类型，可读写。 
+ DropCap'返回一个 DropCap 对象，该对象代表指定段落中格式为首字下沉的大写字母。只读。 
+ FarEastLineBreakControl'如果为 True，则 Microsoft Word 会将东亚语言文字的换行规则应用于指定的段落。如果只将某些指定段落的 FarEastLineBreakControl 属性设定为 True，则返回 wdUndefined。Long 类型，可读写。 
+ FirstLineIndent'返回或设置首行缩进或悬挂缩进的大小（以磅值表示）。用正数设置首行缩进的尺寸，用负数设置悬挂缩进的尺寸。Single 类型，可读写。 
+ Format'返回或设置一个 ParagraphFormat 对象，该对象代表指定的一个或多个段落的格式。 
+ HalfWidthPunctuationOnTopOfLine'如果为 True，则 Microsoft Word 会将指定段落行首的标点符号改为半角字符。如果仅将某些指定段落的该属性设置为 True，则此属性将返回 wdUndefined。Long 类型，可读写。 
+ HangingPunctuation'如果为 True，则指定段落中的标点将可以溢出边界。如果仅将某些指定段落的该属性设置为 True，则返回 wdUndefined。Long 类型，可读写。 
+ Hyphenation'如果指定的段落进行自动断字，则该属性值为 True。如果指定的段落不进行自动断字，则该属性值为 False。可读写 Long 类型。 
+ ID'在当前文档另存为网页时，返回或设置指定对象的标识标签。可读写 String 类型。 
+ IsStyleSeparator'如果段落包含特殊隐藏段落标记，而利用该标记 Microsoft Word 可以显示合并不同段落样式的段落，则该属性值为 True。Boolean 类型，只读。 
+ KeepTogether'在 Microsoft Word 对文档重新分页时，如果指定段落中的所有行都位于同一页上，则该属性值为 True。可读写 Long 类型。 
+ KeepWithNext'在 Microsoft Word 对文档重新分页时，如果指定段落与它的下一段位于同一页上，则该属性值为 True。可读写 Long 类型。 
+ LeftIndent'返回或设置一个 Single 类型的值，该值代表指定段落的左缩进值（以磅为单位）。可读写。 
+ LineSpacing'返回或设置指定段落的行距（以磅为单位）。Single 类型，可读写。 
+ LineSpacingRule'返回或设置指定段落的行距。可读写 WdLineSpacing 类型。 
+ LineUnitAfter'返回或设置指定段落的段后间距（以网格线为单位）。可读写 Single 类型。 
+ LineUnitBefore'返回或设置指定段落的段前间距（以网格线为单位）。可读写 Single 类型。 
+ ListNumberOriginal'返回一个 Integer 类型的值，该值代表段落的原始列表级别。只读。 
+ MirrorIndents'返回或设置一个 Long 类型的值，该值代表左缩进和右缩进的宽度是否相同。该属性值可以是 True、False 或 wdUndefined。可读写。 
+ NoLineNumber'如果取消指定段落的行号，则该属性值为 True。可读写 Long 类型。 
+ OutlineLevel'返回或设置指定段落的大纲级别。可读写 WdOutlineLevel 类型。 
+ PageBreakBefore'如果在指定段落前插入了分页符，则该属性值为 True。可读写 Long 类型。 
+ Parent'返回一个 Object 类型值，该值代表指定 Paragraph 对象的父对象。 
+ Range'返回一个 Range 对象，该对象代表指定段落中包含的文档部分。 
+ ReadingOrder'返回或设置指定段落的读取次序而不改变其对齐方式。可读写 WdReadingOrder 类型。 
+ RightIndent'返回或设置指定段落的右缩进（以磅为单位）。可读写 Single 类型。 
+ Shading'返回一个 Shading 对象，该对象引用指定段落的底纹格式。 
+ SpaceAfter'返回或设置指定段落或文本栏后面的间距（以磅为单位）。可读/写 Single 类型。 
+ SpaceAfterAuto'如果 Microsoft Word 自动设置指定段落的段后间距，则该属性为 True。可读/写 Long 类型。 
+ SpaceBefore'返回或设置指定段落的段前间距（以磅为单位）。可读/写 Single 类型。 
+ SpaceBeforeAuto'如果 Microsoft Word 自动设置指定段落的段前间距，则该属性为 True。可读/写 Long 类型。 
+ Style'返回或设置指定对象的样式。可读写 Variant 类型。 
+ TabStops'返回或设置 TabStops 集合，该集合表示指定段落的所有自定义制表位。可读写。 
+ TextboxTightWrap'返回或设置一个 WdTextboxTightWrap 常量，该常量代表文本环绕形状或文本框的紧密程度。可读写。 
+ WidowControl'在 Word 对文档重新分页时，如果指定段落的首行和末行与段落的其他各行同页，则该属性值为 True。可读写 Long 类型。 
+ WordWrap'如果 Microsoft Word 在指定段落或文本框架的西文单词中间断字换行，则该属性值为 True。可读写 Long 类型。

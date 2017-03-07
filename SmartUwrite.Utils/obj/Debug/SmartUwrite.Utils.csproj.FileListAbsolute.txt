@@ -1,0 +1,17 @@
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\Oss\Aliyun.OpenServices.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\Serialiaze\Newtonsoft.Json.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\Zip\ICSharpCode.SharpZipLib.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\Zip\ZipFloClass.cs
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\License.lic
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\SmartUwrite.Util.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\SmartUwrite.Util.pdb
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\Aliyun.OpenServices.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\Aspose.Cells.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\DotRas.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\Newtonsoft.Json.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\Debug\DotRas.xml
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\Debug\BIMT.Util.Properties.Resources.resources
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\Debug\SmartUwrite.Utils.csproj.GenerateResource.Cache
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\Debug\SmartUwrite.Util.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\Debug\SmartUwrite.Util.pdb

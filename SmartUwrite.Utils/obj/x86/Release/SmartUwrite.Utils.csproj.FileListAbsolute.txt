@@ -1,0 +1,16 @@
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\x86\Release\SmartUwrite.Utils.csprojResolveAssemblyReference.cache
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\x86\Release\BIMT.Util.Properties.Resources.resources
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\x86\Release\SmartUwrite.Utils.csproj.GenerateResource.Cache
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\Excel\Aspose.Cells.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\Serialiaze\Newtonsoft.Json.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\Zip\ICSharpCode.SharpZipLib.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\License.lic
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\SmartUwrite.Util.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\SmartUwrite.Util.pdb
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\Aspose.Cells.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\DotRas.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\ICSharpCode.SharpZipLib.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\Newtonsoft.Json.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\bin\x86\Release\DotRas.xml
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\x86\Release\SmartUwrite.Util.dll
+D:\GitLab\SmartUwrite\SmartUwrite.Utils\obj\x86\Release\SmartUwrite.Util.pdb

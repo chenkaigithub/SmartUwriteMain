@@ -1,0 +1,3 @@
+﻿1.BIMT200.dll、SmartUwrite.Core.dll更新只需更新此两文件；除非改了SmartUwrite.Util.dll就加上它；
+2.小版本更新只改变末尾版本号即可，以达到新版本高于旧版本目的；
+3.大更新修改主版本号；
