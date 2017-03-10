@@ -2,6 +2,16 @@
 
 **SmartUwrite** 是一款智能写作助手；集参考文献格式化、文献搜索、文献匹配、Google学术搜索、图片校验、推荐期刊、推荐审稿人功能于一体，极大的方便了有投稿需求医护人员的写稿流程；
 
+
+## 工程简介 ##
+
+- SmartUwrite为VSTO项目主工程；
+- .core为核心业务工程；
+- .utils为工具工程；
+
+![](http://i.imgur.com/M8MvZgH.jpg)
+
+- .core采用MVC三层结构，视图在View包中；业务处理在Controller中；模型在Model中
 ## 快速安装 ##
 
 - 系统环境 windows xp以上
